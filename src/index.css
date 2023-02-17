@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Neutra';
+    src: local('GoldmanBold'),
+        url('./assets/fonts/NeutraText-Bold.otf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Neutra';
+    src: local('GoldmanLight'),
+        url('./assets/fonts/NeutraText-Book.otf') format('truetype');
+    font-weight: normal;
+}
+
+* {
+    font-family: Neutra, sans-serif;
+}
+
+th,
+td {
+    padding: 1rem 1.25rem;
+    border: 2px solid #ebebeb;
+}
